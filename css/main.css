@@ -86,7 +86,105 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*homepage styles*/
+header,
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.content-wrapper{
+
+}
+
+.header-divider{
+
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.hero-section{
+
+}
+
+.form-description{
+
+}
+
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.form{
+
+}
+
+.features{
+
+}
+
+.features .content-wrapper{
+
+}
+
+.features-items{
+
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.reviews{
+
+}
+
+.reviews .content-wrapper{
+
+}
+
+.img{
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.footer-conent{
+
+}
+
+.footer-content .content-wrapper{
+
+}
+
+.social{
+
+}
+
+.social-icons{
+
+}
+
+.copyright{
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -260,4 +358,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
