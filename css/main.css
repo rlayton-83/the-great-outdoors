@@ -95,45 +95,67 @@ footer{
   flex-flow: row wrap;
 }
 
-.content-wrapper{
-
+header .content-wrapper{
+  width: 60%;
+  padding: 15px;
 }
 
 .header-divider{
+padding: 12px;
+}
 
+header nav{
+  width: 60%
+}
+
+header nav ul{
+  width: 60%
 }
 
 main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+
 }
 
 .hero-section{
-
+width: 45%;
+padding-left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
 .form-description{
+width: 45%;
+padding-left: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 
 }
 
 aside{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-.form{
+  width: 45%;
+  padding-left: 15px;
 
+}
+
+.form{
+width: 75%;
+}
+
+.form h3{
+  width: 100%;
 }
 
 .features{
-
+  width: 75%;
+  padding-left: 30px;
 }
 
 .features .content-wrapper{
-
+width: 3%;
 }
 
 .features-items{
@@ -145,17 +167,33 @@ article{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 65%;
 }
 
 .reviews{
-
+  display: flex;
+  justify-content:flex-start;
+  align-items:flex-start;
+  flex-flow: row wrap ;
+  width: 95%;
+  padding-right: 30px:
 }
 
-.reviews .content-wrapper{
-
+.reviews h2{
+width: 31%;
+display:inline-block;
 }
+
 
 .img{
+
+}
+
+.reviews .content-wrapper h4{
+  width: 65%;
+}
+
+.review .content-wraper p{
 
 }
 
@@ -167,15 +205,20 @@ footer{
 }
 
 .footer-conent{
-
+width: 65%;
 }
 
-.footer-content .content-wrapper{
+footer .content-wrapper{
+width: 55%;
+margin: 50px 0;
+}
 
+.contact{
+padding-left: 13%;
 }
 
 .social{
-
+width: 100%;
 }
 
 .social-icons{
@@ -183,7 +226,7 @@ footer{
 }
 
 .copyright{
-
+width: 100%;
 }
 /* ==========================================================================
    Helper classes
