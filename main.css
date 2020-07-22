@@ -144,19 +144,21 @@ footer .content-wrapper{
 }
 
 footer .cotact{
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 footer .social-icons{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  }
+  flex-basis: auto;
+ }
 
   footer .social-icons p{
     display: flex;
     justify-content: center;
     align-items: center;
+
     }
 
 footer .copyright{
@@ -360,7 +362,7 @@ flax-flow: row wrap;
 /*Tablet styles here*/
 
 .content-wrapper{
-  width: 900%;
+  width: 90%;
 }
 
 .header-divider{
@@ -372,12 +374,12 @@ header{
 }
 
 header nav{
-  width: 30%;
+  width: 70%;
 }
 
 header nav ul{
-  width: 25%;
-  justify-content: flex-end;
+  width: 45%;
+  justify-content: space-between;
 }
 
 header .content-wrapper{
@@ -432,23 +434,23 @@ footer .content-wrapper{
    ========================================================================== */
 
    .mission-content {
-        display:
+        display:flex;
         justify-content: space-between;
-        align-items:
+        align-items:center;
     }
 
     .mission-content p {
-        width:
+        width:80%;
     }
 
     .contact-section .content-wrapper h2 {
-        width:
+        width: 80%
     }
 
     .contact-content {
-        display:
-        justify-content:
-        align-items:
+        display:flex;
+        justify-content:center;
+        align-items:center;
 }
 
 /* ==========================================================================
@@ -471,12 +473,16 @@ Faq Page
 
 
 @media only scren and (min-width: 1200px){
-/*Deskyop styles here*/
+/*Desktop styles here*/
 .content-wrapper{
-  width: 100%;
+  width: 90%;
 }
 
 .header-divider{
+  width: 100%;
+}
+
+header{
   width: 100%;
 }
 
@@ -502,6 +508,10 @@ aside .content-wrapper{
   flex-flow: row;
 }
 
+footer .content-wrapper{
+  width: 90%;
+}
+
 .features article{
   width: 85%;
   display: flex;
@@ -521,11 +531,48 @@ aside .content-wrapper{
   align-items: center;
 }
 
+.reviews h3{
+  width: 85%;
+}
 
+.faq-content{
+  flex-basis: auto;
 }
 
 }
 
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.mission-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission-content p{
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+
+.faq .content-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq-content{
+  flex-basis: 40%;
+}
+  .faq h2{
+    width: 100%;
+  }
+}
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
