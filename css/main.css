@@ -128,7 +128,11 @@ line-height: 1.285;
 }
 
 img {
-  width: 150%;
+  width: 100%;
+}
+
+figure{
+  margin: 0;
 }
 
 
@@ -168,6 +172,14 @@ header .content-wrapper {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
+}
+
+header figure{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
@@ -225,6 +237,8 @@ margin: 20px 0;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url("../img/hero.jpg") center no-repeat #333;
+  background-size: cover;
 }
 
 /*Aside*/
@@ -242,6 +256,8 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/raw-pixel.jpg') center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -265,7 +281,8 @@ aside {
 /*Reviews*/
 
 .reviews {
-  background: #0f3c0f;
+  background-color: #0f3c0f;
+
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -496,6 +513,18 @@ header .content-wrapper{
   justify-content: space-between;
 }
 
+header figure{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+img{
+  margin: 0;
+}
+
 /* Hero Area */
 
 aside .content-wrapper{
@@ -565,7 +594,21 @@ footer .copyright{
 /* ==========================================================================
    About Page
    ========================================================================== */
+,map figure {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  overflow: hidden;
+  position: relative;
+}
 
+.map iframe{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
    .mission-content {
         display:flex;
         justify-content: space-between;
@@ -576,6 +619,7 @@ footer .copyright{
     .mission-content p {
         width: 45%;
     }
+
 
     .contact-section .content-wrapper h2 {
         width: 80%
@@ -606,6 +650,7 @@ footer .copyright{
 
 @media only scren and (min-width: 1200px){
 /*Desktop styles here*/
+
 .content-wrapper{
   max-width: 960px;
 }
@@ -614,6 +659,13 @@ header{
   padding: 15px 0;
 }
 
+header figure{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /* Hero */
 
