@@ -120,18 +120,23 @@ h3,
 h4{
   font-family: 'Poppins', sans-serif;
   color: #fff;
-  font-size: 1.7em;
+  font-size: 1.3em;
   margin: 20px 0;
+  float: left;
+  flex-flow: row wrap;
 }
 
 
 p {
 font-size: .875em;
 line-height: 1.285;
+float: left;
 }
 
 img {
   width: 100%;
+  float: left;
+  margin-right: 10px;
 }
 
 figure{
@@ -190,7 +195,7 @@ header figure{
 header nav {
   display: flex;
   justify-content: space-around;
-  width: 60%;
+d  width: 60%;
   flex-flow: row wrap;
   list-style-type: none;
   font-size: 1.125em;
@@ -201,11 +206,13 @@ header nav {
 header nav ul{
   display: flex;
   justify-content: space-around;
+  align-items: space-between;
   width: 100%;
 }
 
 header nav ul li{
   font-size: 1.125em;
+  margin-right: 10px;
 }
 
 footer {
@@ -226,11 +233,24 @@ footer .contact {
 margin-botom: 50px;
 }
 
+footer .social h4{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+
 
 footer .social-icons {
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
+}
+
+.social-icons i{
+  margin-bottom: 50px;
+  font-size: 3em;
+  margin-right: 50px;
 }
 
 footer .social-icons p{
@@ -240,7 +260,8 @@ footer .social-icons p{
 }
 
 footer .copyright {
-margin: 20px 0;
+margin: 70px 80px 80px 200px;
+align-items: center;
 }
 
 /*-----------Mobile Styles - Homepage - - - - - - - - */
@@ -314,6 +335,7 @@ input[type=button] {
 
 .features h2 {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 
@@ -348,19 +370,21 @@ width: 100%;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 
 .reviews  h2 {
   margin-bottom: 40px;
-line-height: 1;
+  line-height: 1;
 }
 
 
 .reviews  h3,{
-  width: 55%;
   margin: 20px 0;
+  float: left;
 }
+
 
 
 
@@ -408,7 +432,7 @@ margin: 0;
 
 
 /* ==========================================================================
-   FAQ Page
+   dFAQ Page
    ========================================================================== */
 
 .faq{
@@ -420,7 +444,7 @@ flex-flow: row wrap;
 }
 
 .faq .content-wrapper{
-margin: 50px 0 0 0;
+  dmargin: 50px 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -690,6 +714,12 @@ footer .copyright{
   width: 100%;
 }
 
+.social-icons i{
+  font-size: 2em;
+  margin-bottom: 30px;
+  justify-content: space-between;
+
+}
 
 
 /* ==========================================================================
@@ -750,15 +780,16 @@ footer .copyright{
 
 /* Dektop settings*/
 
-@media only scren and (max-width: 1200px){
+@media only scren and (min-width: 1200px){
 /*Desktop styles here*/
 
 .content-wrapper{
-  min-width: 960px;
+  max-width: 960px;
 }
 
 header {
   padding: 15px 0;
+  width: 100%;
 }
 
 
@@ -780,7 +811,7 @@ p{
 /* Hero */
 
 .hero-area h1 {
-  width: 80%;
+  width: 100%;
   font-size: 3.75em;
 }
 
@@ -793,7 +824,7 @@ aside .content-wrapper {
 
 aside .content-wrapper .form-description,
 aside .content-wrapper .form {
-  width: 50%;
+  width: 75%;
   margin: 0;
 }
 
@@ -806,11 +837,11 @@ aside .content-wrapper .form {
   width: 100%;
 }
 .features h2 {
-width: 90%;
+width: 95%;
 }
 
 .features article {
-  flex-basis: 33%;
+  flex-basis: 55%;
 }
 .features i{
   font-size: 5.75em;
@@ -830,6 +861,7 @@ width: 90%;
 .reviews h2{
 padding-bottom: 50px;
 text-align: center;
+font-size: 3em;
 }
 
 
@@ -837,9 +869,15 @@ text-align: center;
 /*Footer*/
 
 footer h4{
-  font-size: 1.875em;
+  font-size: 10em;
 }
 
+.social-icons i{
+  font-size: 4em;
+  margin-bottom: 30px;
+  justify-content: space-between;
+
+}
 
 
 /* ==========================================================================
